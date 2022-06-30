@@ -1,0 +1,391 @@
+.colors {
+    /* Kwaidan */
+    color: #e2ddb3;
+    color: #f2eabc;
+    color: #ead16c;
+    color: #bdb084;
+    color: #d49f53;
+    color: #ffc3bb;
+    color: #181914;
+
+    color: #2d3f31;
+    color: #faf7e8;
+    /* Komachi */
+    color: #e4cea5;
+    color: #af7045;
+    color: #c07e5c;
+    color: #dfb783;
+    color: #73645f;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 100px;
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+nav li {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #181914;
+}
+
+a:hover {
+    color: #3c5741;
+    font-weight: bold;
+}
+
+/*  ----------------------------- index.html -----------------------------*/
+
+.home-body {
+    background-image: url("images/sumi-sumi-e-watercolor-china-1595365-cropped.jpg");
+    background-size: 100% 720px;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-header h1 {
+    font-size: 5rem;
+    padding-top: 210px;
+    letter-spacing: .2rem;
+    font-weight: lighter;
+    color: #292725;
+}
+
+.home-subheaders {
+    padding-top: 155px;
+}
+
+.home-subheader {
+    /* font-family: 'Ballet', cursive; */
+    font-style: italic;
+    font-size: 2rem;
+    color: #625D57;
+    font-weight: lighter;
+    opacity: .2;
+}
+
+.hs-1 {
+    margin-left: 500px;
+}
+
+.hs-2 {
+    margin-left: 600px;
+}
+
+/*  ----------------------------- all subpages -----------------------------*/
+
+.body-subpage {
+    background-color: #E5DBCF;
+}
+
+.header-subpage {
+    display: flex;
+    padding-top: 50px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+}
+
+.header-subpage,
+.body-subpage main {
+    margin-left: 110px;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    line-height: 40px;
+}
+
+.header-text h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    color: #2d3f31;
+}
+
+.header-text p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #2d3f31;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+footer p {
+    font-style: italic;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    opacity: .7;
+}
+
+/*  ----------------------------- about.html -----------------------------*/
+
+.about-header {
+    border-bottom: 5px solid #bba46e;
+}
+
+.about-contents {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.9rem;
+    padding-top: 65px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.about-contents a {
+    color: #746149;
+}
+
+.about-contents a:hover {
+    color: #B99C55;
+}
+
+.about-main {
+    margin-right: 415px;
+}
+
+.about-main p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.about-main a {
+    font-weight: bold;
+    color: #746149;
+}
+
+.about-main a:hover {
+    color: #B99C55;
+}
+
+.about-main h3 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: #2d3f31;
+    margin-bottom: 10px;
+    margin-top: 90px;
+}
+
+.about-main p {
+    padding-top: 20px;
+}
+
+#social+p {
+    margin-bottom: 25px;
+}
+
+.social-icons {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 155px;
+    margin-bottom: 50px;
+}
+
+#press+p {
+    margin-bottom: 25px;
+}
+
+.about-main li {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.about-main ul {
+    margin-bottom: 100px;
+}
+
+/*  ----------------------------- lyrics.html -----------------------------*/
+
+.lyrics-contents {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9rem;
+    padding-top: 65px;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.lyrics-header {
+    border-bottom: 5px solid #ded1af;
+}
+
+.lyrics-header img {
+    position: relative;
+    left: 36px;
+}
+
+.lyrics-contents a {
+    color: #746149;
+}
+
+.lyrics-contents a:hover {
+    color: #B99C55;
+}
+
+.listen {
+    display: inline;
+}
+
+.listen-text {
+    color: #aca497;
+}
+
+.lyrics-main {
+    font-size: 1.7rem;
+}
+
+.lyrics-main h3 {
+    margin-bottom: 13px;
+    display: inline-block;
+    color: #2d3f31;
+}
+
+.album {
+    margin-bottom: 70px;
+}
+
+.lyrics-main li {
+    list-style-position: inside;
+    margin-bottom: 10px;
+}
+
+/*  ----------------------------- contact.html -----------------------------*/
+
+.contact-header {
+    font-size: 1.9rem;
+    margin-bottom: 50px;
+}
+
+.header-text form {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+input {
+    height: 45px;
+    width: 290px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.comments {
+    margin-bottom: 30px;
+}
+
+textarea {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin-bottom: 20px;
+    width: 130px;
+    font-size: 1.9rem;
+    align-self: center;
+    margin-right: 80px;
+    border-radius: 10px;
+    border: 3px solid #B99C55;
+    color: #B99C55;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #B99C55;
+    color: #fff;
+
+}
+
+.contact-meitei {
+    font-style: italic;
+    align-self: center;
+    margin-right: 80px;
+    font-size: 1.5rem !important;
+}
+
+/*  ----------------------------- attributions.html -----------------------------*/
+.attributions-main {
+    display: flex;
+    margin-right: 280px;
+    margin-bottom: 50px;
+}
+
+.attributions-main img {
+    max-height: 300px;
+}
+
+.attributions-main figure {
+    margin: 0 55px;
+}
+
+.attributions-main a {
+    font-weight: bold;
+}
+
+/*  ----------------------------- lyrics subpages -----------------------------*/
+.kwaidan-touba-header-text h1 {
+    text-align: center;
+}
+
+.lyrics-subpage-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 200px;
+    font-size: 1.7rem;
+    margin-bottom: 60px;
+}
+
+.english {
+    line-height: 1.4;
+}
